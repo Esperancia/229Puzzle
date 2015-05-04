@@ -1,0 +1,39 @@
+application: gcdc2013-229cloudtourism
+version: 1
+runtime: php
+api_version: 1
+
+
+handlers:
+- url: /_mmServerScripts/MMHTTPDB.php
+  script: _mmServerScripts/MMHTTPDB.php
+  
+- url: /_mmServerScripts/mysql.php
+  script: _mmServerScripts/mysql.php
+  
+- url: /Connections/cnx229tourism.php
+  script: Connections/cnx229tourism.php
+
+- url: /partie.php
+  script: /partie.php
+  
+- url: /_notes/index.php.mno
+  script: _notes/index.php.mno
+  
+- url: /scripts/puzzle.js
+  static_dir: scripts/puzzle.js
+
+- url: /css/styles.css
+  static_dir: css/styles.css
+
+- url: /images/S.fw.png
+  static_dir: images/S.fw.png
+
+- url: /SpryAssets
+  static_dir: SpryAssets
+
+- url: /ressources/
+  static_dir: ressources
+  
+- url: /.*
+  script: main.php

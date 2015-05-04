@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rstCategories" value="name:IdCat;datatype:int,name:LibCat;datatype:string" />
+	<infoitem key="UD_rstImages" value="name:IdCat;datatype:int,name:IdLieu;datatype:int" />
+</info>

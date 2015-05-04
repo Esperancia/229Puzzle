@@ -1,0 +1,36 @@
+application: 229cloudtourism
+version: 2
+runtime: php
+api_version: 1
+
+handlers:
+- url: /_mmServerScripts
+  static_dir: _mmServerScripts
+
+- url: /Connections
+  static_dir: Connections
+
+- url: /_notes
+  static_dir: _notes
+  
+- url: /scripts
+  static_dir: scripts
+    
+- url: /css
+  static_dir: css
+  
+- url: /images
+  static_dir: images
+  
+- url: /SpryAssets
+  static_dir: SpryAssets
+  
+- url: /ressources
+  static_dir: ressources
+
+- url: /
+  script: index.php
+  
+- url: /
+  script: partie.php
+  
