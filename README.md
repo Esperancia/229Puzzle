@@ -1,2 +1,2 @@
-# ftic
-Learn with girls to use git
+# 229Puzzle
+Make puzzle with Benin images
