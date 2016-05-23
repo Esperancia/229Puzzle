@@ -1,0 +1,38 @@
+application: 229cloudtourism
+version: 1
+runtime: php
+api_version: 1
+
+
+handlers:
+- url: /.*
+  script: main.php
+  script: Connections/cnx229tourism.php
+  script: partie.php
+  script: _mmServerScripts/MMHTTPDB.php
+  script: _mmServerScripts/mysql.php
+  script: _notes/index.php
+  
+static_dir:/SpryAssets/*.js
+static_dir:/SpryAssets/*.css
+
+static_dir:/scripts/*.js
+
+static_dir:/css/*.css
+
+static_dir:/ressources/**.jpg
+static_dir:/ressources/**.png
+static_dir:/ressources/**.txt
+static_dir:/ressources/**.html
+
+static_dir:/images/*.png
+
+static_dir:/.idea/*.xml
+static_dir:/.idea/*.xml
+static_dir:/.idea/*.name
+static_dir:/.idea/*.iml
+
+static_dir:/_mmServerScripts/*.php
+static_dir:/_notes/*.php
+
+

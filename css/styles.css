@@ -1,0 +1,130 @@
+@charset "utf-8";
+// ici le code css du puzzle de arwyn
+body
+{
+    width:100%;
+    min-width: 800px;
+}
+
+.masquee, #jeu_image
+{
+    display:none;
+}
+
+canvas
+{
+    border: 1px solid black;
+    width:400px;
+    height:400px;
+}    		
+       		
+#jeu_statut
+{
+	float:right;
+    padding:4px;
+    margin:0px
+}
+       
+#jeu_statut input
+{
+    font-size:1.4em;
+	text-align:right;
+}
+              
+input:disabled
+{
+    background-color:#ffffff;
+    color:black;
+    border:none;
+} 
+
+#jeu_compteur_coups{ width:3em;}
+#jeu_chrono{ width:5em;}
+
+#jeu_suivant, #jeu_suivant:disabled
+{
+    border:1px black solid;
+}
+//ici mon code css.
+.body {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.total {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.AreaDescription {
+	width: 23em;
+	margin-top: 0.4em;
+	min-height: 300px;
+	height: 22em;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 4em;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-right: 2em;
+}
+#choixCat {
+	width: 20em;
+	float: left;
+}
+.puzzle {
+	border: 1px double #900;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin: 15px;
+	padding: 5px;
+}
+.labelChoix {
+	width: 21em;
+}
+label.labelChoix {
+	padding:5px;
+	text-align:center;
+}
+.divdescription{
+	width: 300px;
+	min-height:400px;
+	float: left;
+	margin:5px 25px 10px 10px;
+	padding-left: 8px;
+}
+.choixCategorie {
+	width: 700px;
+	margin:0 auto;
+}
+.jeu {
+	float: left;
+	border: 1px double #930;
+	margin-right: auto;
+	margin-left: auto;
+	width: 785px;
+	padding: 5px;
+}
+.banniere {
+	background-image: url(../images/S.fw.png);
+	height: 80px;
+	width: 805px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#divpuzzle {
+	background-color: #FFF;
+	text-align: center;
+	float: left;
+}
+.divpuzzle  
+{     
+  height:62px;  
+  width:62px;  
+ 	border: 1px solid darkgrey;  
+}  
+.textegagnant {
+	height: 5em; margin-top: 0.2em;
+	width: 23.4em;
+}

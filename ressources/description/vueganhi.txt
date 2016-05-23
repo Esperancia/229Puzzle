@@ -1,0 +1,13 @@
+<p>
+Ceci est l'aperçu d'en haut du quartier d'affaires de Cotonou,
+Coeur de Cotonou, avec ses multiples entreprises et ses grands immeubles.
+En simple, le quartier commercial le plus propérieux de la ville.
+</p>
+
+<hr/>
+
+<p>
+This is the view from the top of the business district of Cotonou
+Heart of Cotonou, with its many businesses and large buildings.
+In short, the most properious commercial district of the city.
+</p>

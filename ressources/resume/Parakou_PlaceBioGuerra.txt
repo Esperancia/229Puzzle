@@ -1,0 +1,12 @@
+<p>
+Place Bio-Guéra - Vue de profil
+Parakou, BENIN
+
+</p>
+
+<hr/>
+
+<p>
+Place Bio-Guera - Profile view
+Parakou, BENIN
+</p>
